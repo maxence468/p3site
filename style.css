@@ -19,14 +19,12 @@
 
 #myVideo {
 	position: fixed;
-	max-width: 103%; 
-	max-height: 100%;
-	min-width: 103%; 
-	min-height: 100%;
+	width: 100vw; 
+	height: 100vh;
 	z-index: 1;
 }
 
-.btn{
+#btn{
 	position: relative;
 	
 	top: -30px;
@@ -52,13 +50,20 @@ a{
 	line-height: 1;
 	font-weight: bold;
 	text-decoration: none;
+	
 }
 
 
 a:hover{
 	color: black !important;
 	z-index: 10000;
+
+	font-size: 80px;
+
+	transform: rotate(10deg) !important;
+
 }
+
 
 
 #btn1 {
