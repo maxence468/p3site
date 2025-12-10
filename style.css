@@ -1,0 +1,18 @@
+*{
+	margin: 0;
+	padding: 0;
+	overflow-y:hidden;
+}
+
+#back{
+	position: relative;
+}
+
+#myVideo {
+	position:relative;
+	left: 800px;
+  max-width: 100%; 
+  max-height: 100%;
+  min-width: 100%; 
+  min-height: 100%;
+}
