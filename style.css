@@ -1,18 +1,112 @@
+@font-face {
+    font-family:"rodinPro";
+    src: url("assets/rodin.otf") format("opentype");
+}
+
+
 *{
 	margin: 0;
 	padding: 0;
-	overflow-y:hidden;
+	overflow:hidden;
 }
 
 #back{
 	position: relative;
+	left: 1000px;
+	margin: 0;
+	z-index: 1;
 }
 
 #myVideo {
-	position:relative;
-	left: 800px;
-  max-width: 100%; 
-  max-height: 100%;
-  min-width: 100%; 
-  min-height: 100%;
+	position: fixed;
+	max-width: 103%; 
+	max-height: 100%;
+	min-width: 103%; 
+	min-height: 100%;
+	z-index: 1;
 }
+
+.btn{
+	position: relative;
+	
+	top: -30px;
+	left: 30px;
+
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	flex-direction: column;
+
+ 	z-index: 2;
+
+ 	background-color: transparent;
+ 	height: 1000px;
+
+ 	gap: 0;
+}
+
+
+a{	
+	font-family: rodinPro;
+	font-size: 55px;
+	line-height: 1;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+a:hover{
+	color: black !important;
+	z-index: 10000;
+}
+
+
+#btn1 {
+    color: #72c7f9;
+    transform: rotate(-20deg);
+}
+
+#btn2 {
+    color: #73caf9;
+    transform: rotate(-10deg);
+}
+
+#btn3 {
+    color: #9ae3fb;
+    transform: rotate(-11deg);
+    z-index: 2;
+}
+
+#btn4 {
+    color: #a1f9f9;
+    transform: rotate(-15deg);
+    z-index: 1;
+}
+
+#btn5 {
+    color: #71c6f9;
+    transform: rotate(6deg);
+}
+
+#btn6 {
+    color: #9ae5fc;
+    transform: rotate(-5deg);
+}
+
+#btn7 {
+    color: #a3fbfc;
+    transform: rotate(-3deg);
+}
+
+#btn8 {
+    color: #9ae5fc;
+    transform: rotate(-1deg);
+    z-index: 2;
+}
+
+#btn9 {
+    color: #73cafa;
+    transform: rotate(12deg);
+    z-index: 1;
+}
+

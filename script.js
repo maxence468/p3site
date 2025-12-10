@@ -1,4 +1,4 @@
-const back = document.getElementById("myVideo");
+const back = document.getElementById("back");
 back.style.transition = "all 2s"
 
 function scroll(event){
